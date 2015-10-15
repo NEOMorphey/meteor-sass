@@ -2,7 +2,7 @@ meteor-scss
 ===========
 
 ```
-meteor add rainhaven:sass
+meteor add neomorphey:sass
 ```
 
 To see the original, please visit: https://github.com/fourseven/meteor-scss

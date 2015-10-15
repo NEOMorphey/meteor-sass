@@ -1,14 +1,14 @@
 Package.describe({
-  name: 'rainhaven:sass',
+  name: 'neomorphey:sass',
   summary: 'Style with attitude and autoprefixer.',
-  version: "1.0.2",
-  git: "https://github.com/RainHaven/meteor-sass.git"
+  version: "1.0.0",
+  git: "https://github.com/NEOMorphey/meteor-foundation-apps.git"
 });
 
 // This is originally from fourseven/meteor-scss
 // https://github.com/fourseven/meteor-scss/blob/master/package.js
 Package._transitional_registerBuildPlugin({
-  name: 'rainhaven:sass',
+  name: 'neomorphey:sass',
   sources: [
     'plugin/compile-scss.js'
   ],
@@ -24,7 +24,7 @@ Package.on_test(function (api) {
            'tinytest',
            'jquery',
            'templating']);
-  api.use(['rainhaven:sass']);
+  api.use(['neomorphey:sass']);
   api.add_files(['test/scss_tests.html', 'test/scss_tests.js'], 'client');
   api.add_files(['test/scss_tests.scss'], 'client',  {isTest:true});
 });

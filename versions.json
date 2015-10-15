@@ -11,7 +11,7 @@
   ],
   "pluginDependencies": [
     [
-      "rainhaven:sass",
+      "neomorphey:sass",
       {}
     ]
   ],
